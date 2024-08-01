@@ -1,3 +1,4 @@
+//Code snippet examples from Coursera - Meta 
 //nested loops - one inside another
 for (var firstNum = 0; firstNum < 2; firstNum++) {
     for (var secondNum = 0; secondNum < 10; secondNum++) {
@@ -25,4 +26,31 @@ for (var firstNum = 0; firstNum < 2; firstNum++) {
 1 times 7 equals 7
 1 times 8 equals 8
 1 times 9 equals 9
-code example from Coursea Meta course */
+*/
+
+//nested loops - one inside another 
+for (var i = 100; i > 10; i = i - 10) {
+    for (var j = 10; j > 4; j = j - 5) {
+        console.log(i + " divided by " + j + " equals " + i / j);
+    }
+}
+
+/*Here's the output of the above nested loop:
+100 divided by 10 equals 10
+100 divided by 5 equals 20
+90 divided by 10 equals 9
+90 divided by 5 equals 18
+80 divided by 10 equals 8
+80 divided by 5 equals 16
+70 divided by 10 equals 7
+70 divided by 5 equals 14
+60 divided by 10 equals 6
+60 divided by 5 equals 12
+50 divided by 10 equals 5
+50 divided by 5 equals 10
+40 divided by 10 equals 4
+40 divided by 5 equals 8
+30 divided by 10 equals 3
+30 divided by 5 equals 6
+20 divided by 10 equals 2
+20 divided by 5 equals 4 */
