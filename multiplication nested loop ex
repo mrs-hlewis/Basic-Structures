@@ -1,0 +1,28 @@
+//nested loops - one inside another
+for (var firstNum = 0; firstNum < 2; firstNum++) {
+    for (var secondNum = 0; secondNum < 10; secondNum++) {
+        console.log(firstNum + " times " + secondNum + " equals " + firstNum * secondNum);
+    }
+}
+/*The output now is:
+0 times 0 equals 0
+0 times 1 equals 0
+0 times 2 equals 0
+0 times 3 equals 0
+0 times 4 equals 0
+0 times 5 equals 0
+0 times 6 equals 0
+0 times 7 equals 0
+0 times 8 equals 0
+0 times 9 equals 0
+1 times 0 equals 0
+1 times 1 equals 1
+1 times 2 equals 2
+1 times 3 equals 3
+1 times 4 equals 4
+1 times 5 equals 5
+1 times 6 equals 6
+1 times 7 equals 7
+1 times 8 equals 8
+1 times 9 equals 9
+code example from Coursea Meta course */
